@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.ty_cache/
+.mypy_cache/
+.import_linter_cache/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage/
+coverage.xml
+
+# Node
+node_modules/
+.next/
+.turbo/
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment
+.env*
+!.env.example
+
+# Local data
+data/
+
+# OS and editors
+.DS_Store
+.idea/
+.vscode/

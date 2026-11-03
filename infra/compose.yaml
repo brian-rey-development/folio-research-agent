@@ -1,0 +1,22 @@
+name: folio
+
+services:
+  db:
+    image: paradedb/paradedb:0.26.4-pg17
+    environment:
+      POSTGRES_USER: folio
+      POSTGRES_PASSWORD: folio
+      POSTGRES_DB: folio
+    ports:
+      - "5432:5432"
+    volumes:
+      - folio-db-data:/var/lib/postgresql/data
+      - ./initdb:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U folio -d folio"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  folio-db-data:

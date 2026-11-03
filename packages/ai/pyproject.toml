@@ -6,6 +6,10 @@ dependencies = [
     "folio-core",
     "folio-sources",
     "folio-db",
+    "pydantic-ai-slim[anthropic,openai,google]>=2.65.0",
+    "anthropic>=2.4.0",
+    "langfuse>=5.1.0",
+    "genai-prices>=0.2.1",
 ]
 
 [build-system]

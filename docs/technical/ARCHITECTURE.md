@@ -106,7 +106,7 @@ A citation is a tuple of paper ID, section ID, character start, character end an
 
 ## Sources and documents
 
-The `sources` package has one typed client for each external API, with retries, rate limits and recorded responses for tests. PubMed and Europe PMC give search and abstracts, PMC Open Access gives full text as JATS XML, OpenAlex gives metadata and links, ClinicalTrials.gov gives trial registrations, and Crossref gives retraction data. [ADR 0008](adr/0008-pmc-open-access-jats-only.md) explains why Folio parses JATS XML and no PDFs.
+The `sources` package has one typed client for each external API, with retries, rate limits and recorded responses for tests. PubMed and Europe PMC give search and abstracts, PMC Open Access gives full text as JATS XML, OpenAlex gives metadata and links, ClinicalTrials.gov gives trial registrations, and Crossref gives retraction data. [ADR 0008](adr/0008-pmc-open-access-jats-only.md) explains why Folio parses JATS XML and no PDFs. The source clients use httpx2, the same HTTP client as the model SDKs.
 
 The JATS parser turns each article into sections of normalized plain text with stable character offsets. Tables stay as structured rows, because effect sizes often live in tables.
 

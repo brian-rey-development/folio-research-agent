@@ -60,6 +60,7 @@ root_packages = [
     "folio_evals",
     "folio_api",
 ]
+include_external_packages = true
 
 [[tool.importlinter.contracts]]
 name = "Folio layers"
@@ -70,3 +71,16 @@ layers = [
     "folio_sources | folio_db",
     "folio_core",
 ]
+
+[[tool.importlinter.contracts]]
+name = "Folio code uses httpx2, not httpx"
+type = "forbidden"
+source_modules = [
+    "folio_core",
+    "folio_sources",
+    "folio_db",
+    "folio_ai",
+    "folio_evals",
+    "folio_api",
+]
+forbidden_modules = ["httpx"]

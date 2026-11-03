@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img">
+<title>Folio</title>
+<rect width="512" height="512" rx="112" fill="#0F3D33"/>
+<path transform="translate(112.64 112.64) scale(2.8672)" fill="#EDECE7" d="M55,5 H85 A10,10 0 0 1 95,15 V45 A10,10 0 0 1 85,55 H65 A10,10 0 0 0 55,65 V85 A10,10 0 0 1 45,95 H15 A10,10 0 0 1 5,85 V55 A10,10 0 0 1 15,45 H35 A10,10 0 0 0 45,35 V15 A10,10 0 0 1 55,5 Z"/>
+</svg>

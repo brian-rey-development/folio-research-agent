@@ -22,7 +22,7 @@ A question goes through a fixed chain of stages. Folio plans the search and fetc
 | Models | Claude, OpenAI and Gemini through direct APIs |
 | Storage | PostgreSQL with pgvector and BM25 (ParadeDB), SQLAlchemy Core, Alembic |
 | Observability | Langfuse |
-| Tooling | uv, pnpm, just, ruff, ty, pytest, import-linter |
+| Tooling | uv, pnpm, just, ruff, ty, pytest, import-linter, Oxlint, TypeScript 7 |
 
 ## Repository
 

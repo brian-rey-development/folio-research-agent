@@ -8,7 +8,7 @@ Folio is a learning project, and the case study has to explain why each part has
 
 ## Decision
 
-Each decision that changes the structure, a dependency or a quality target gets an ADR in `docs/technical/adr`. An ADR has a number, a status, the context, the decision, the alternatives and the consequences, and it stays short. A new decision that replaces an old one gets a new ADR, and the old ADR changes its status to superseded.
+Each decision that changes the structure, a dependency or a quality target gets an ADR in `docs/technical/adr`. An ADR has a number, a status, the context, the decision, the alternatives and the consequences, and it stays short. Until the first release, a changed decision edits its original ADR in place. After the first release, a new decision that replaces an old one gets a new ADR, and the old ADR changes its status to superseded.
 
 ## Consequences
 

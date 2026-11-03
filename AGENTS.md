@@ -44,7 +44,7 @@ Every dependency stays on its latest stable release, with no pre-releases. A pac
 
 ## Docs
 
-Product docs live in `docs/product`, technical docs and ADRs live in `docs/technical`, and learning modules live in `docs/learn`. A decision that changes the structure, a dependency or a quality target gets a new ADR. Docs use ASD-STE100 Simplified Technical English at 80% or better, with no colon in prose and no filler words.
+Product docs live in `docs/product`, technical docs and ADRs live in `docs/technical`, and learning modules live in `docs/learn`. A decision that changes the structure, a dependency or a quality target gets an ADR, and before the first release a changed decision edits its original ADR. Docs use ASD-STE100 Simplified Technical English at 80% or better, with no colon in prose and no filler words.
 
 ## Git
 

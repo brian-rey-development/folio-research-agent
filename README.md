@@ -2,7 +2,7 @@
   <img src="docs/brand/banner.png" alt="Folio. From literature to evidence." width="100%">
 </p>
 
-Folio is a biomedical research agent. It searches PubMed, Europe PMC, OpenAlex and ClinicalTrials.gov, reads the papers and writes answers in which each claim cites an exact source passage. A separate eval suite measures retrieval, citation support, hallucination, latency and cost. The build is in stage 1 of 6, from November 3 to December 14, 2026.
+Folio is a biomedical research agent. It searches PubMed, Europe PMC, OpenAlex and ClinicalTrials.gov, reads the papers and writes answers in which each claim cites an exact source passage. A separate eval suite measures retrieval, citation support, hallucination, latency and cost.
 
 ## Stack
 

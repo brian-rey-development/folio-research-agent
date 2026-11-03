@@ -25,6 +25,8 @@ The logo is a geometric connected-block symbol with an upright sans-serif wordma
 | `logo.svg` | Symbol and wordmark in Forest, for light backgrounds |
 | `mark.svg` | Symbol only, at 16px or larger |
 | `icon.svg` | App icon, a Sand symbol on a rounded Forest square |
+| `icon.png` | App icon at 512px, for avatars and stores |
+| `banner.svg`, `banner.png` | README banner and GitHub social preview, 1280x640 |
 
 ## Interface principles
 

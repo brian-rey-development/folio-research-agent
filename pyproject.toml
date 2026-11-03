@@ -20,11 +20,11 @@ folio-api = { workspace = true }
 
 [dependency-groups]
 dev = [
-    "httpx",
-    "import-linter",
-    "pytest",
-    "ruff",
-    "ty",
+    "httpx>=0.28.1",
+    "import-linter>=2.15",
+    "pytest>=9.2.0",
+    "ruff>=0.17.3",
+    "ty>=0.0.96",
 ]
 
 [tool.ruff]

@@ -3,3 +3,6 @@ packages:
 allowBuilds:
   sharp: false
   unrs-resolver: false
+# minimatch below 11.0.1 has GHSA-g3hv-75wg-m249 and every eslint 9 and 10 dependency range still resolves to it
+overrides:
+  minimatch: "^11.0.4"

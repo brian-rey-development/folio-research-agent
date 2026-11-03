@@ -1,7 +1,7 @@
 from collections.abc import MutableMapping
 from typing import Literal
 
-IGNORED_SCHEMAS = frozenset({"langgraph"})
+INCLUDED_SCHEMAS = frozenset({None, "public"})
 SCHEMA_KEY = "schema_name"
 
 type NameType = Literal[
@@ -19,5 +19,5 @@ type ParentNames = MutableMapping[ParentKey, str | None]
 
 def include_name(name: str | None, type_: NameType, parent_names: ParentNames) -> bool:
     if type_ == "schema":
-        return name not in IGNORED_SCHEMAS
-    return parent_names.get(SCHEMA_KEY) not in IGNORED_SCHEMAS
+        return name in INCLUDED_SCHEMAS
+    return parent_names.get(SCHEMA_KEY) in INCLUDED_SCHEMAS

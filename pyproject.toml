@@ -20,7 +20,6 @@ folio-api = { workspace = true }
 
 [dependency-groups]
 dev = [
-    "fastapi[standard]",
     "httpx",
     "import-linter",
     "pytest",

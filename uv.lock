@@ -372,7 +372,6 @@ source = { virtual = "." }
 
 [package.dev-dependencies]
 dev = [
-    { name = "fastapi", extra = ["standard"] },
     { name = "httpx" },
     { name = "import-linter" },
     { name = "pytest" },
@@ -384,7 +383,6 @@ dev = [
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "fastapi", extras = ["standard"] },
     { name = "httpx" },
     { name = "import-linter" },
     { name = "pytest" },
@@ -414,13 +412,13 @@ name = "folio-api"
 version = "0.0.0"
 source = { editable = "apps/api" }
 dependencies = [
-    { name = "fastapi" },
+    { name = "fastapi", extra = ["standard"] },
     { name = "folio-ai" },
 ]
 
 [package.metadata]
 requires-dist = [
-    { name = "fastapi" },
+    { name = "fastapi", extras = ["standard"] },
     { name = "folio-ai", editable = "packages/ai" },
 ]
 

@@ -16,6 +16,10 @@ check:
     if [ -f apps/web/package.json ]; then pnpm --filter @folio/web lint; fi
     if [ -f apps/web/package.json ]; then pnpm --filter @folio/web typecheck; fi
 
+audit:
+    uv audit --locked --preview-features audit-command
+    pnpm audit
+
 fmt:
     uv run ruff format .
     uv run ruff check --fix .

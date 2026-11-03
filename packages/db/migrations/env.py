@@ -7,8 +7,6 @@ from sqlalchemy import create_engine
 
 DATABASE_URL_VAR = "DATABASE_URL"
 
-config = context.config
-
 
 def database_url() -> str:
     url = os.environ.get(DATABASE_URL_VAR)
@@ -23,7 +21,6 @@ def run_migrations_offline() -> None:
         target_metadata=metadata,
         literal_binds=True,
         dialect_opts={"paramstyle": "named"},
-        include_schemas=True,
         include_name=include_name,
     )
     with context.begin_transaction():
@@ -36,7 +33,6 @@ def run_migrations_online() -> None:
         context.configure(
             connection=connection,
             target_metadata=metadata,
-            include_schemas=True,
             include_name=include_name,
         )
         with context.begin_transaction():

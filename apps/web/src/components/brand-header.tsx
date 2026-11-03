@@ -5,7 +5,7 @@ const MARK_SIZE = 48;
 export function BrandHeader() {
   return (
     <div className="flex flex-col items-center gap-2">
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-2">
         <FolioMark size={MARK_SIZE} className="text-forest" />
         <span className="text-5xl font-bold text-ink">Folio</span>
       </div>

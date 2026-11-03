@@ -3,7 +3,7 @@ name = "folio-api"
 version = "0.0.0"
 requires-python = ">=3.14"
 dependencies = [
-    "fastapi",
+    "fastapi[standard]",
     "folio-ai",
 ]
 

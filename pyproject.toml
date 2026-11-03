@@ -1,0 +1,73 @@
+[project]
+name = "folio"
+version = "0.0.0"
+requires-python = ">=3.14"
+dependencies = []
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = ["packages/*", "apps/api"]
+
+[tool.uv.sources]
+folio-core = { workspace = true }
+folio-sources = { workspace = true }
+folio-db = { workspace = true }
+folio-ai = { workspace = true }
+folio-evals = { workspace = true }
+folio-api = { workspace = true }
+
+[dependency-groups]
+dev = [
+    "fastapi[standard]",
+    "httpx",
+    "import-linter",
+    "pytest",
+    "ruff",
+    "ty",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py314"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "RUF", "N", "PT", "ASYNC"]
+
+[tool.ty.src]
+include = ["packages", "apps"]
+
+[tool.ty.terminal]
+error-on-warning = true
+
+[tool.pytest.ini_options]
+addopts = "--import-mode=importlib"
+testpaths = [
+    "packages/core/tests",
+    "packages/sources/tests",
+    "packages/db/tests",
+    "packages/ai/tests",
+    "packages/evals/tests",
+    "apps/api/tests",
+]
+
+[tool.importlinter]
+root_packages = [
+    "folio_core",
+    "folio_sources",
+    "folio_db",
+    "folio_ai",
+    "folio_evals",
+    "folio_api",
+]
+
+[[tool.importlinter.contracts]]
+name = "Folio layers"
+type = "layers"
+layers = [
+    "folio_api | folio_evals",
+    "folio_ai",
+    "folio_sources | folio_db",
+    "folio_core",
+]

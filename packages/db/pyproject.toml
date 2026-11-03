@@ -1,0 +1,15 @@
+[project]
+name = "folio-db"
+version = "0.0.0"
+requires-python = ">=3.14"
+dependencies = [
+    "folio-core",
+    "sqlalchemy>=2",
+    "alembic",
+    "psycopg[binary]>=3",
+    "pgvector",
+]
+
+[build-system]
+requires = ["uv_build>=0.13,<0.14"]
+build-backend = "uv_build"

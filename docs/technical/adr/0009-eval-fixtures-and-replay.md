@@ -1,14 +1,14 @@
 # 0009 Eval fixtures and replay
 
-This record has the status accepted, and the learner and Claude accepted it on 2026-11-03 during the Folio design.
+This record has the status accepted. The learner and Claude accepted it on 2026-11-03 during the Folio design, and they revised it on 2026-11-04 when the product moved to SEC filings.
 
 ## Context
 
-Folio searches live sources, and their results change every day. Live evals change a score with no code change, so no comparison between two pipeline versions in the case study stays valid.
+Folio reads live EDGAR sources, and their results change as new filings and amendments arrive. Live evals change a score with no code change, so no comparison between two pipeline versions in the case study stays valid.
 
 ## Decision
 
-Each eval case records its tool responses and fetched documents as a fixture. An eval run replays the fixture, and the index filter limits retrieval to the papers in that fixture. A fixture changes only through a reviewed update, which records the date and the reason.
+Each eval case records its tool responses and fetched documents as a fixture. An eval run replays the fixture, and the index filter limits retrieval to the filings in that fixture. A fixture changes only through a reviewed update, which records the date and the reason.
 
 ## Alternatives
 

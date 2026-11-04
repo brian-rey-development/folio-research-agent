@@ -11,6 +11,6 @@ Each record explains one architecture decision of Folio with its context, the al
 | [0005](0005-sqlalchemy-core-and-alembic.md) | SQLAlchemy Core and Alembic | Accepted |
 | [0006](0006-multi-provider-models-with-direct-apis.md) | Multi-provider models with direct APIs | Accepted |
 | [0007](0007-langfuse-for-observability.md) | Langfuse for observability | Accepted |
-| [0008](0008-pmc-open-access-jats-only.md) | PMC Open Access JATS only | Accepted |
+| [0008](0008-sec-filings-and-xbrl-only.md) | SEC filings and XBRL only | Accepted |
 | [0009](0009-eval-fixtures-and-replay.md) | Eval fixtures and replay | Accepted |
 | [0010](0010-diagrams-as-typed-graphs.md) | Diagrams as typed graphs | Accepted |

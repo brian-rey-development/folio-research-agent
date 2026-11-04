@@ -4,7 +4,7 @@ This file is the only instruction file for coding agents in this repository, so 
 
 ## Project
 
-Folio is a biomedical research agent that answers research questions with claims that each cite an exact source passage. Read [the PRD](docs/product/PRD.md) for the scope, [the architecture](docs/technical/ARCHITECTURE.md) for the design and [the evaluation document](docs/technical/evaluation.md) for the quality targets. The scope is frozen, so a new requirement extends the existing design and never changes the product direction.
+Folio is a market intelligence and investment research agent over SEC filings. It answers research questions about companies and sectors, and each claim cites an exact filing passage while each number cites an exact XBRL fact. Read [the PRD](docs/product/PRD.md) for the scope, [the architecture](docs/technical/ARCHITECTURE.md) for the design and [the evaluation document](docs/technical/evaluation.md) for the quality targets. The scope is frozen, so a new requirement extends the existing design and never changes the product direction.
 
 ## Commands
 
@@ -36,7 +36,7 @@ Domain models live in `packages/core`, tables, migrations and repositories live 
 - Write no comment unless it explains a non-obvious reason, and write no docstring unless it documents a public contract.
 - Validate data at the boundaries (user input, external APIs, LLM output) and trust internal code.
 - Never use the em dash character in code, copy or docs.
-- Treat paper text and API responses as untrusted data, and never pass them to a model as instructions.
+- Treat filing text and API responses as untrusted data, and never pass them to a model as instructions.
 
 ## Dependencies
 

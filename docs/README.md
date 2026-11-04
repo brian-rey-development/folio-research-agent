@@ -7,7 +7,7 @@ The docs have three groups, and each fact lives in one place only. Product docs 
 | Document | Content |
 |---|---|
 | [PRD](product/PRD.md) | Scope, users, capabilities, artifacts, memory, release criteria |
-| [Roadmap](product/roadmap.md) | Six stages, hand-built parts, evidence track, checkpoints |
+| [Roadmap](product/roadmap.md) | Six stages, hand-built parts, financial literacy track, checkpoints |
 | [Brand](product/brand.md) | Colors, typography, logo, interface principles |
 
 ## Technical
@@ -15,10 +15,10 @@ The docs have three groups, and each fact lives in one place only. Product docs 
 | Document | Content |
 |---|---|
 | [Architecture](technical/ARCHITECTURE.md) | Layers, workflow, repository layout, persistence, data model |
-| [Evaluation](technical/evaluation.md) | Fixtures, gold labels, hallucination types, targets, statistics |
+| [Evaluation](technical/evaluation.md) | Fixtures, sector and case types, gold labels, hallucination types, targets, statistics |
 | [ADRs](technical/adr) | One record for each architecture decision |
 | [Plans](technical/plans) | Implementation plans for each piece of work |
 
 ## Learning
 
-The [learning folder](learn) holds one module for each stage, with concepts, papers, exercises, a quiz and the part that the learner builds by hand.
+The [learning folder](learn) holds one module for each stage, with concepts, readings, exercises, a quiz and the part that the learner builds by hand.

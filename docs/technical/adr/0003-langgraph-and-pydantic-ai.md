@@ -1,10 +1,10 @@
 # 0003 LangGraph and Pydantic AI
 
-This record has the status accepted, and the learner and Claude accepted it on 2026-11-03 during the Folio design.
+This record has the status accepted. The learner and Claude accepted it on 2026-11-03 during the Folio design, and they revised it on 2026-11-04 when the product moved to SEC filings.
 
 ## Context
 
-The research workflow has many stages, shared state, retries, a verify loop and parallel paper analysis. Each LLM step also needs typed output, tools and a model that can change for comparisons.
+The research workflow has many stages, shared state, retries, a verify loop and parallel filing analysis. Each LLM step also needs typed output, tools and a model that can change for comparisons.
 
 ## Decision
 

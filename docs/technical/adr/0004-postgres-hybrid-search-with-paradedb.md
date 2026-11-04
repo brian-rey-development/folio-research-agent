@@ -1,10 +1,10 @@
 # 0004 Postgres hybrid search with ParadeDB
 
-This record has the status accepted, and the learner and Claude accepted it on 2026-11-03 during the Folio design.
+This record has the status accepted. The learner and Claude accepted it on 2026-11-03 during the Folio design, and they revised it on 2026-11-04 when the product moved to SEC filings.
 
 ## Context
 
-Biomedical retrieval needs exact term matches for drug names, genes and outcomes, and it also needs semantic matches for paraphrased findings. The project data (papers, projects, artifacts) also needs a relational store.
+Filing retrieval needs exact term matches for company names, product names and XBRL concept names, and it also needs semantic matches for paraphrased risks and competitor descriptions. The project data (filings, facts, projects, artifacts) also needs a relational store.
 
 ## Decision
 

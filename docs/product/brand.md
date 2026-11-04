@@ -1,6 +1,10 @@
 # Folio brand
 
-Folio is scientific research intelligence, and the visual direction is professional B2B biotech software that is restrained, precise and research-oriented. The interface has no AI gradients, no decorative neural networks, no unnecessary animation and no serif or italic display fonts.
+Folio is market intelligence and investment research from SEC filings, and its tagline is "From filings to evidence." The visual direction is professional B2B financial research software that is restrained, precise and research-oriented. The interface has no AI gradients, no decorative neural networks, no stock charts that suggest trading, no unnecessary animation and no serif or italic display fonts.
+
+## Voice
+
+Folio writes like a careful analyst. It states a number with its period and its source, and it attributes each company statement to the company that made it, for example "CrowdStrike states that it is a leader." It names its uncertainty in plain words, it never says "buy" or "sell", and it never claims to give personal investment advice. A sentence is short enough to check, and the interface has no hype words.
 
 ## Colors
 
@@ -33,7 +37,7 @@ The logo is a geometric connected-block symbol with an upright sans-serif wordma
 - Dense but readable research screens with a clear hierarchy of information.
 - Wide reading space for documents and source passages.
 - Visible citations on every claim, with one click to the source passage.
-- Structured tables for evidence, with consistent 8px spacing.
+- Structured tables for numbers and risks, with consistent 8px spacing.
 - Restrained line icons, and contrast that meets WCAG AA.
 
-The reference components are the research sidebar, paper search, source cards, citation inspector, evidence table, artifact viewer, conversation panel and project memory settings.
+The reference components are the research sidebar, filing search, source cards, citation inspector, competitor matrix, competitive map, artifact viewer, conversation panel and project memory settings.

@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/brand/banner.png" alt="Folio. From literature to evidence." width="100%">
+  <img src="docs/brand/banner.png" alt="Folio. From filings to evidence." width="100%">
 </p>
 
-Folio is a biomedical research agent. It searches PubMed, Europe PMC, OpenAlex and ClinicalTrials.gov, reads the papers and writes answers in which each claim cites an exact source passage. A separate eval suite measures retrieval, citation support, hallucination, latency and cost.
+Folio is a market intelligence and investment research agent. It reads SEC filings and XBRL facts from EDGAR and returns a competitive map, a competitor matrix and an investment memo. Each claim cites an exact filing passage, and each number cites an exact XBRL fact. A separate eval suite measures retrieval, citation support, hallucination, latency and cost.
 
 ## Stack
 

@@ -9,7 +9,7 @@ export function BrandHeader() {
         <FolioMark size={MARK_SIZE} className="text-forest" />
         <span className="text-5xl font-bold text-ink">Folio</span>
       </div>
-      <p className="text-lg text-ink/70">From literature to evidence.</p>
+      <p className="text-lg text-ink/70">From filings to evidence.</p>
     </div>
   );
 }

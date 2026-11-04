@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Folio",
-  description: "Scientific research intelligence. From literature to evidence.",
+  description: "Market intelligence from SEC filings. From filings to evidence.",
 };
 
 type RootLayoutProps = {

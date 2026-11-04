@@ -29,5 +29,5 @@ def test_include_name_excludes_objects_inside_other_schemas() -> None:
 
 
 def test_include_name_keeps_objects_in_default_schema() -> None:
-    assert include_name("papers", "table", {"schema_name": None}) is True
-    assert include_name("papers", "table", {"schema_name": "public"}) is True
+    assert include_name("filings", "table", {"schema_name": None}) is True
+    assert include_name("filings", "table", {"schema_name": "public"}) is True

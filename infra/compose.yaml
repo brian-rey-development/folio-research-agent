@@ -2,7 +2,7 @@ name: folio
 
 services:
   db:
-    image: paradedb/paradedb:0.26.4-pg18
+    image: paradedb/paradedb:v0.26.6-pg18
     environment:
       POSTGRES_USER: folio
       POSTGRES_PASSWORD: folio
